@@ -4,6 +4,8 @@
 
 [Open Scope →](https://rowletcc.github.io/rowlet-scope/)
 
+![Scope with its synthetic sensor sample. Missing readings and long sampling intervals leave visible breaks.](assets/preview.png)
+
 Drop in a CSV, choose two columns, and look at the data. Scope preserves file order and leaves interruptions visible. Open it with the built-in synthetic sensor sample to see how it works.
 
 - Numeric and date/time horizontal axes; numeric vertical axis.
