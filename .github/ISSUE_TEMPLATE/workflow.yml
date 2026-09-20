@@ -1,0 +1,26 @@
+name: A dataset workflow
+description: Describe an inspection, conversion or reporting tool you need.
+title: "Workflow: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public issue. Use synthetic or non-sensitive examples. Private project enquiries: chengjacky073@gmail.com."
+  - type: textarea
+    id: input
+    attributes:
+      label: What comes in?
+      description: Format, approximate size and a small non-sensitive example.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What needs to come out?
+      description: The output you need, who uses it and what currently takes too long.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Browser or offline requirements, deadline, and budget if this is a paid project enquiry.
